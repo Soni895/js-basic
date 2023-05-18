@@ -42,13 +42,13 @@
 // object creation
 
 // factory method to create an object
-function createobject( age,Rollno)
+function createobject( age,rollno)
 {
 
     let student=
 
 {
-    rollno:Rollno,
+    rollno,
     age:age,
     subject:"Btech",
     year: "second",
@@ -70,9 +70,9 @@ let student=
         print: function() {
         console.log("inside print method");
         console.log("darshan");
-    },
+    }
 };
-console.log(student);
+// console.log(student);
 let object1=createobject(38,11212530);
 let object2=createobject(39,11212531);
 let object3=createobject(40,11212532);
@@ -94,3 +94,5 @@ function Student( rollno,age,subject)
 // object creation usin constructor
 let obj5 = new Student(11212535,20,"Computer_Network");
 console.log(obj5.rollno);
+
+// dynamic object value

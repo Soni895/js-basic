@@ -42,17 +42,17 @@
 // object creation
 
 // factory method to create an object
-function createobject(age,rollno)
+function createobject( age,Rollno)
 {
 
     let student=
 
 {
-    rollno:rollno,
+    rollno:Rollno,
     age:age,
     subject:"Btech",
     year: "second",
-        Print() {
+        Print: function() {
         console.log("inside print method");
         console.log("darshan");
     },
@@ -67,7 +67,7 @@ let student=
     age:38,
     subject:"Btech",
     year: "second",
-        Print() {
+        print: function() {
         console.log("inside print method");
         console.log("darshan");
     },
@@ -81,4 +81,15 @@ console.log(object1.rollno,object2.rollno,object3.rollno,object4.rollno);
  
 
 // constructor method to create an  object
+function Student()
+{
+    this.rollno=11212530;
+    this.subject="English";
+    this.age=30;
+    this.print= function()
+    {
+        console.log("hi inside print");
+    }
+}
+// object creation usin constructor
 

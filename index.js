@@ -20,3 +20,10 @@ for(let i=0;i<20;i++)
 {
     console.log(i,"\nhi darshan soni \n");
 }
+ let arr=['darsahn','soni',25,30,50];
+ let i=0;
+while(i<arr.length)
+{
+    console.log(arr[i]);
+    i++;
+}

@@ -1,3 +1,2 @@
-console.log(arr.length);
-// arr.push("hi i am darshan soni");
-// console.log(arr.length);
+let obj5 = new Student();
+console.log(obj5.rollno);

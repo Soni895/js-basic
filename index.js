@@ -72,7 +72,7 @@ let student=
         console.log("darshan");
     },
 };
-// console.log(student);
+console.log(student);
 let object1=createobject(38,11212530);
 let object2=createobject(39,11212531);
 let object3=createobject(40,11212532);
@@ -81,15 +81,16 @@ console.log(object1.rollno,object2.rollno,object3.rollno,object4.rollno);
  
 
 // constructor method to create an  object
-function Student()
+function Student( rollno,age,subject)
 {
-    this.rollno=11212530;
-    this.subject="English";
-    this.age=30;
+    this.rollno=rollno;
+    this.subject=subject;
+    this.age=age;
     this.print= function()
     {
         console.log("hi inside print");
     }
 }
 // object creation usin constructor
-
+let obj5 = new Student(11212535,20,"Computer_Network");
+console.log(obj5.rollno);

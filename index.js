@@ -140,31 +140,36 @@ let obj1=obj_creation();
 // math object
 
 // Math.PI
-console.log(Math.round(1.9));
-let min=Math.max(1,2,34,5,6);
-let max=Math.min(50,34,5,6,7,7);
-console.log(min,max);
+// console.log(Math.round(1.9));
+// let min=Math.max(1,2,34,5,6);
+// let max=Math.min(50,34,5,6,7,7);
+// console.log(min,max);
 
-const Name="darshan";
-let last_Name=new String("soni");
-console.log(Name,last_Name);
-console.log(typeof(Name));
-console.log(typeof(last_name));
-console.log(Name.length);
-console.log(last_Name.length);
-console.log(Name[10]);
+// let Name="darshan";
+// let last_Name=new String("soni");
+// console.log(Name,last_Name);
+// console.log(typeof(Name));
+// console.log(typeof(last_name));
+// console.log(Name.length);
+// console.log(last_Name.length);
+// console.log(Name[10]);
 
-console.log(Name);
-for (let i=0;i<Name.length;i++)
-{
-    console.log(Name[i]);
-}
+// console.log(Name);
+// for (let i=0;i<Name.length;i++)
+// {
+//     console.log(Name[i]);
+// }
 let message="hi i am darshan soni what is your name";
 let split=message.split(" ");
-console.log(message);
+// console.log(message);
+// console.log(split);
+// console.log(typeof(split));
+
+// for(let i=0;i<split.length;i++)
+// {
+//     console.log(split[i]);
+// }
 console.log(split);
-console.log(typeof(split));
-for(let i=0;i<split.length;i++)
-{
-    console.log(split[i]);
-}
+message.replace('soni','rawal');
+message.replace('soni','rawal');
+console.log(message);

@@ -159,3 +159,12 @@ for (let i=0;i<Name.length;i++)
 {
     console.log(Name[i]);
 }
+let message="hi i am darshan soni what is your name";
+let split=message.split(" ");
+console.log(message);
+console.log(split);
+console.log(typeof(split));
+for(let i=0;i<split.length;i++)
+{
+    console.log(split[i]);
+}

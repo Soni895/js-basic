@@ -42,57 +42,96 @@
 // object creation
 
 // factory method to create an object
-function createobject( age,rollno)
-{
+// function createobject( age,rollno)
+// {
 
-    let student=
+//     let student=
 
-{
-    rollno,
-    age:age,
-    subject:"Btech",
-    year: "second",
-        Print: function() {
-        console.log("inside print method");
-        console.log("darshan");
-    },
-};
-return student;
+// {
+//     rollno,
+//     age:age,
+//     subject:"Btech",
+//     year: "second",
+//         Print: function() {
+//         console.log("inside print method");
+//         console.log("darshan");
+//     },
+// };
+// return student;
 
-}
-let student=
-
-{
-    rollno:11212530,
-    age:38,
-    subject:"Btech",
-    year: "second",
-        print: function() {
-        console.log("inside print method");
-        console.log("darshan");
-    }
-};
-// console.log(student);
-let object1=createobject(38,11212530);
-let object2=createobject(39,11212531);
-let object3=createobject(40,11212532);
-let object4=createobject(41,11212533);
-console.log(object1.rollno,object2.rollno,object3.rollno,object4.rollno);
+// }
+// let student=
+// {
+//     rollno:11212530,
+//     age:38,
+//     subject:"Btech",
+//     year: "second",
+//         print: function() {
+//         console.log("inside print method");
+//         console.log("darshan");
+//     }
+// };
+// // console.log(student);
+// let object1=createobject(38,11212530);
+// let object2=createobject(39,11212531);
+// let object3=createobject(40,11212532);
+// let object4=createobject(41,11212533);
+// // console.log(object1.rollno,object2.rollno,object3.rollno,object4.rollno);
  
 
-// constructor method to create an  object
-function Student( rollno,age,subject)
-{
-    this.rollno=rollno;
-    this.subject=subject;
-    this.age=age;
-    this.print= function()
-    {
-        console.log("hi inside print");
-    }
-}
-// object creation usin constructor
-let obj5 = new Student(11212535,20,"Computer_Network");
-console.log(obj5.rollno);
+// // constructor method to create an  object
+// function Student( rollno,age,subject)
+// {
+//     this.rollno=rollno;
+//     this.subject=subject;
+//     this.age=age;
+//     this.print= function()
+//     {
+//         console.log("hi inside print");
+//     }
+// }
+// // object creation usin constructor
+// let obj5 = new Student(11212535,20,"Computer_Network");
+// // console.log(obj5.rollno);
 
-// dynamic object value
+// // dynamic object value
+
+
+// // add property
+// obj5.branch="CSE";
+// obj5["passing_year"]=2025;
+// console.log(obj5);
+// // delete
+// // delete obj5.age, delete obj5.passing_year;
+// console.log(obj5);
+// let length=Object.keys(obj5).length;
+// // console.log(obj5.constructor);
+// console.log(length);
+
+// // for in loops
+// for(let key in obj5)
+// {
+//     console.log(key,student[key]);
+// }
+// console.log("object printed start")
+// console.log(obj5);
+
+function obj_creation()
+{
+let employee={
+    salary:3500,
+    experience:"5 year",
+    ctc: "55 lac"
+}
+return employee;
+}
+
+let obj1=obj_creation();
+// console.log(obj1);
+obj1["city"]="kaithal";
+for (let key in obj1)
+{
+    console.log(key,obj1[key]);
+}
+delete obj1.ctc;
+console.log(obj1);

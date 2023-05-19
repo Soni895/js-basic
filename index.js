@@ -128,10 +128,34 @@ return employee;
 
 let obj1=obj_creation();
 // console.log(obj1);
-obj1["city"]="kaithal";
-for (let key in obj1)
+// obj1["city"]="kaithal";
+// for (let key in obj1)
+// {
+//     console.log(key,obj1[key]);
+// }
+// delete obj1.ctc;
+// console.log(obj1);
+
+// inbuilt object && array
+// math object
+
+// Math.PI
+console.log(Math.round(1.9));
+let min=Math.max(1,2,34,5,6);
+let max=Math.min(50,34,5,6,7,7);
+console.log(min,max);
+
+const Name="darshan";
+let last_Name=new String("soni");
+console.log(Name,last_Name);
+console.log(typeof(Name));
+console.log(typeof(last_name));
+console.log(Name.length);
+console.log(last_Name.length);
+console.log(Name[10]);
+
+console.log(Name);
+for (let i=0;i<Name.length;i++)
 {
-    console.log(key,obj1[key]);
+    console.log(Name[i]);
 }
-delete obj1.ctc;
-console.log(obj1);

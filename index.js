@@ -295,5 +295,10 @@ console.log(temp2);
 
 // combine and slice an array
 
+let arr1=[1,2,3,4,5];
+let arr2=[6,7,8,9,10];
+let answer=arr1.concat(arr2);
+console.log("combined array",answer);
+
 
 

@@ -273,6 +273,15 @@ let obj2=input.find((obj2)=>obj2.RollNo==11212530);
 console.log(obj2);
 
 // remove from array
+ let array=[1,2,3,4,5,6,7.8,9,10];
+// console.log(array.length);
+// array.pop();
+// console.log(array.length,array);
+// array.shift();
+// console.log(array.length,array);
+array.splice(2,2);
+console.log(array.length,array);
+
 
 
 

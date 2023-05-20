@@ -293,3 +293,7 @@ console.log(temp);
 console.log(temp2);
 
 
+// combine and slice an array
+
+
+

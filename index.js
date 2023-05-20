@@ -344,10 +344,14 @@ let arr1=[1,2,3,4,5];
 //     console.log(i);
 // }
 // for each loop in js
-arr1.forEach(function(element)
-{
-console.log(element);
-});
-arr1.find()
+// arr1.forEach(function(element)
+// {
+// console.log(element);
+// });
+
+// arrow function
+arr1.forEach(number=>console.log(number));
+
+
 
 

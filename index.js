@@ -169,7 +169,13 @@ let split=message.split(" ");
 // {
 //     console.log(split[i]);
 // }
-console.log(split);
+// console.log(split);
 message.replace('soni','rawal');
 message.replace('soni','rawal');
-console.log(message);
+console.log(message+" \n"+split);
+let a="darshan";
+let b=" soni";
+let c=a+b;
+console.log(c.substring(2));
+let str=new String("kaka kakul soni");
+console.log(str,typeof(str));

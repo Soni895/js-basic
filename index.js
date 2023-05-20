@@ -283,6 +283,13 @@ array.splice(2,2);
 console.log(array.length,array);
 //  empty an array
 
-
+let temp=[1,2,3,4,5,6,7.8,9,10];
+console.log(temp);
+let temp2=temp;
+// temp=[]
+// temp.length=0;
+temp.splice(0,temp.length);
+console.log(temp);
+console.log(temp2);
 
 

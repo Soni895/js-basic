@@ -322,6 +322,9 @@ let temp_arr1=[
     temp_ans=temp_arr.concat(temp_arr1);
     console.log(temp_ans);
 
+    
+    let slice_arr=temp_ans.slice(1,3);
+    console.log(slice_arr)
 
 
 

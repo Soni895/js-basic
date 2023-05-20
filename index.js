@@ -358,6 +358,9 @@ console.log(typeof(arr1));
 let join_arr=arr2.join('   ');
 console.log(join_arr);
 console.log(typeof(join_arr));
+// split an array
+let new_arr= join_arr.split(',');
+console.log(new_arr);
 
 
 

@@ -1,4 +1,3 @@
-arr1.forEach(function(element)
-// {
-// console.log(element);
-// });
+let msg="hi i am darshan soni";
+// split_msg=msg.split(' ');
+// console.log(split_msg);

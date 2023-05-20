@@ -362,6 +362,11 @@ console.log(typeof(join_arr));
 let new_arr= join_arr.split(',');
 console.log(new_arr);
 
+let msg="hi i am darshan soni what is your name";
+let split_msg=msg.split(" ");
+ console.log(msg);
+console.log(split_msg);
+
 
 
 

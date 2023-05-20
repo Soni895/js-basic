@@ -327,4 +327,4 @@ let temp_arr1=[
     console.log(slice_arr)
 
 
-
+// spread operator in js

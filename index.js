@@ -272,6 +272,8 @@ console.log("ans is",ans);
 let obj2=input.find((obj2)=>obj2.RollNo==11212530);
 console.log(obj2);
 
+// remove from array
+
 
 
 

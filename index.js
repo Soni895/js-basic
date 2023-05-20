@@ -352,6 +352,19 @@ let arr1=[1,2,3,4,5];
 // arrow function
 arr1.forEach(number=>console.log(number));
 
+// join operator
+let arr2=[1,2,3,4,5];
+console.log(typeof(arr1));
+let join_arr=arr2.join('   ');
+console.log(join_arr);
+console.log(typeof(join_arr));
+
+
+
+
+
+
+
 
 
 

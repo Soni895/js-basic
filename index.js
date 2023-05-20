@@ -196,5 +196,7 @@ console.log(year);
 let time=date.getTime();
 console.log(time);
 
+// array start
+
 
 

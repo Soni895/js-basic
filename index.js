@@ -200,11 +200,11 @@ console.log(time);
 // craetion
 let arr=[1,2,3,4,5];
 console.log(arr);
-console.log(arr[3]);
-for(let i=0;i<arr.length;i++)
-{
-    console.log(arr[1]);
-}
+// console.log(arr[3]);
+// for(let i=0;i<arr.length;i++)
+// {
+//     console.log(arr[1]);
+// }
 
 // insertion
 arr.push(9);
@@ -213,6 +213,7 @@ console.log(arr);
 
 arr.splice(2,0,"darsahn","soni");
 console.log(arr);
+
 
 // searching in arr
 for(let i=0;i<arr.length;i++)
@@ -226,8 +227,7 @@ for(let i=0;i<arr.length;i++)
 }
     
 }
-let index= arr
-console.log(index);
+
 if(arr.includes("Soni"))
 {
     console.log("present");
@@ -241,4 +241,15 @@ let input=[
 {Name:"Rinki",RollNO:11212535},
 {Name:"Alish",RollNO:11212536}
 ];
-console.log(input[1]);
+
+console.log(input);
+let result=input.includes({name:"Darshan", RollNo:11212530});
+if( result)
+{
+    console.log("is present"+result);
+}
+else{
+    console.log("not present");
+
+}
+

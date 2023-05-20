@@ -339,8 +339,15 @@ console.log(temp2);
 // for of loop  which is used for iteration
 let arr1=[1,2,3,4,5];
 
-for(let i of arr1)
+// for(let i of arr1)
+// {
+//     console.log(i);
+// }
+// for each loop in js
+arr1.forEach(function(element)
 {
-    console.log(i);
-}
+console.log(element);
+});
+arr1.find()
+
 

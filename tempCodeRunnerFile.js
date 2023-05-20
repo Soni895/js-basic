@@ -1,2 +1,1 @@
-console.log(split);
-message.replace('soni','rawal');
+date.setFullYear(1998);

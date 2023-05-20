@@ -179,3 +179,22 @@ let c=a+b;
 console.log(c.substring(2));
 let str=new String("kaka kakul soni");
 console.log(str,typeof(str));
+console.log(a.indexOf("dar"));
+
+// date and time in  js
+// var date= new  Date();
+// console.log(typeof(date));
+// console.log(date)
+
+
+var date= new Date(1956,10,20);
+console.log(date);
+date.setFullYear(1998);
+console.log(date);
+let year=date.getFullYear();
+console.log(year);
+let time=date.getTime();
+console.log(time);
+
+
+

@@ -238,8 +238,8 @@ else{
 let input=[
 
 {name:"Darshan", RollNo:11212530},
-{Name:"Rinki",RollNO:11212535},
-{Name:"Alish",RollNO:11212536}
+{Name:"Rinki",RollNo:11212535},
+{Name:"Alish",RollNo:11212536}
 ];
 
 console.log(input);
@@ -252,4 +252,26 @@ else{
     console.log("not present");
 
 }
+console.log(result);
+
+
+let ans=input.find(function(Input)
+{
+    return Input.RollNo==11212535;
+})
+console.log("ans is",ans);
+
+ let obj= input.find(function(input)
+ {
+    return input.RollNo=="11212530";
+ })
+ 
+ console.log("obj is",obj);
+
+//  short cut
+let obj2=input.find((obj2)=>obj2.RollNo==11212530);
+console.log(obj2);
+
+
+
 

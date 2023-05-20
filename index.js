@@ -383,7 +383,33 @@ function print()
 {
     console.log("inside function");
 }
+function print()
+{
+    console.log("inside function updated");
+}
+
+
+
+// function assignment
+let temp_fun1=function print()
+
+{
+    console.log("darshan soni anominous fun1");
+}
+
+// anominus function assignment
+let temp_fun=function()
+
+{
+    console.log("darshan soni inside anominous fun");
+}
+let assignment=temp_fun1;
+
+temp_fun1();
+temp_fun();
 print();
+assignment();
+
 
 
 

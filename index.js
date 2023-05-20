@@ -414,15 +414,16 @@ assignment();
 function get_sum()
 {
     let sum=0;
-    console.log(arguments);
-    for( let i of arguments)
+    console.log(arguments,typeof(arguments));
+
+    for( let i in arguments)
     {
-          sum+= i;
+          sum+= arguments[i];
     }
     return sum;
 }
 
-console.log(get_sum(5,8,9,9,9,9,20));
+console.log(get_sum(5,1,2,3));
 
 
 // rest operator
@@ -438,6 +439,8 @@ function get_sum_rest_operator( ...etc)
     return sum;
 }
 console.log(get_sum_rest_operator(12,23));
+
+
 
 
 

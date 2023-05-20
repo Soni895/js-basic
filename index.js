@@ -368,6 +368,8 @@ let split_msg=msg.split(" ");
 console.log(split_msg);
 
 
+// maping in js
+
 
 
 

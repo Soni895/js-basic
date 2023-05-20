@@ -300,5 +300,9 @@ let arr2=[6,7,8,9,10];
 let answer=arr1.concat(arr2);
 console.log("combined array",answer);
 
+let slice_array=answer.slice(0,5);
+ slice_array=answer.slice(5);
+console.log(slice_array)
+
 
 

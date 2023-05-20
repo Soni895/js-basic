@@ -295,36 +295,43 @@ console.log(temp2);
 
 // combine and slice an array
 
-let arr1=[1,2,3,4,5];
-let arr2=[6,7,8,9,10];
-let answer=arr1.concat(arr2);
-console.log("combined array",answer);
+// let arr1=[1,2,3,4,5];
+// let arr2=[6,7,8,9,10];
+// let answer=arr1.concat(arr2);
+// console.log("combined array",answer);
 
-let slice_array=answer.slice(0,5);
- slice_array=answer.slice(5);
-console.log(slice_array)
+// let slice_array=answer.slice(0,5);
+//  slice_array=answer.slice(5);
+// console.log(slice_array)
 
-// slice on objects
+// // slice on objects
 
-let temp_arr=[
+// let temp_arr=[
 
-{name:"darshan",RollNo:11212530},
-{name:"vansh",RollNo:11212520},
+// {name:"darshan",RollNo:11212530},
+// {name:"vansh",RollNo:11212520},
 
-];
-let temp_arr1=[
+// ];
+// let temp_arr1=[
 
-    {name:"Rinki",RollNo:11212535},
-{name:"Alish",RollNo:11212536},
-    ];
+//     {name:"Rinki",RollNo:11212535},
+// {name:"Alish",RollNo:11212536},
+//     ];
 
- console.log(temp_arr,temp_arr1);
-    temp_ans=temp_arr.concat(temp_arr1);
-    console.log(temp_ans);
+//  console.log(temp_arr,temp_arr1);
+//     temp_ans=temp_arr.concat(temp_arr1);
+//     console.log(temp_ans);
 
     
-    let slice_arr=temp_ans.slice(1,3);
-    console.log(slice_arr)
+//     let slice_arr=temp_ans.slice(1,3);
+//     console.log(slice_arr)
 
 
 // spread operator in js
+let arr1=[1,2,3,4,5];
+let arr2=[6,7,8,9,10];
+let ans_arr=[...arr1,'darshan','soni',true,...arr2];
+console.log(ans_arr);
+let copy_arr1=[...arr1];
+arr1.splice(1,1,"darshan");
+console.log(copy_arr1)

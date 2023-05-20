@@ -306,5 +306,22 @@ console.log(slice_array)
 
 // slice on objects
 
+let temp_arr=[
+
+{name:"darshan",RollNo:11212530},
+{name:"vansh",RollNo:11212520},
+
+];
+let temp_arr1=[
+
+    {name:"Rinki",RollNo:11212535},
+{name:"Alish",RollNo:11212536},
+    ];
+
+ console.log(temp_arr,temp_arr1);
+    temp_ans=temp_arr.concat(temp_arr1);
+    console.log(temp_ans);
+
+
 
 

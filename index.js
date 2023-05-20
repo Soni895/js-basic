@@ -378,6 +378,14 @@ let map_output=arr_map.map(function(value)
 console.log(map_output);
 
 
+// function in js
+function print()
+{
+    console.log("inside function");
+}
+print();
+
+
 
 
 

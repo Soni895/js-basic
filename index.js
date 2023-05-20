@@ -370,8 +370,12 @@ console.log(split_msg);
 
 // maping in js
 
-
-
+let arr_map=[1,2,3,4,5];
+let map_output=arr_map.map(function(value)
+{
+    return value +"darshan soni";
+})
+console.log(map_output);
 
 
 

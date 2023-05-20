@@ -214,4 +214,31 @@ console.log(arr);
 arr.splice(2,0,"darsahn","soni");
 console.log(arr);
 
+// searching in arr
+for(let i=0;i<arr.length;i++)
+{
+    if(arr[i]==="darsahn")
+    {
+       if(arr[i+1]==="soni"){
+        console.log(" darshan soni is present in arr");
 
+    }
+}
+    
+}
+let index= arr
+console.log(index);
+if(arr.includes("Soni"))
+{
+    console.log("present");
+}
+else{
+    console.log("not present");
+}
+let input=[
+
+{name:"Darshan", RollNo:11212530},
+{Name:"Rinki",RollNO:11212535},
+{Name:"Alish",RollNO:11212536}
+];
+console.log(input[1]);

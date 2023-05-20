@@ -281,7 +281,7 @@ console.log(obj2);
 // console.log(array.length,array);
 array.splice(2,2);
 console.log(array.length,array);
-
+//  empty an array
 
 
 

@@ -410,7 +410,19 @@ temp_fun();
 print();
 assignment();
 
+// dynamic funtion creation
+function get_sum()
+{
+    let sum=0;
+    console.log(arguments);
+    for( let i of arguments)
+    {
+          sum+= i;
+    }
+    return sum;
+}
 
+console.log(get_sum(5,8,9,9,9,9,20));
 
 
 

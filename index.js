@@ -304,5 +304,7 @@ let slice_array=answer.slice(0,5);
  slice_array=answer.slice(5);
 console.log(slice_array)
 
+// slice on objects
+
 
 

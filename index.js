@@ -335,3 +335,5 @@ console.log(ans_arr);
 let copy_arr1=[...arr1];
 arr1.splice(1,1,"darshan");
 console.log(copy_arr1)
+
+// for of loop  which is used for iteration

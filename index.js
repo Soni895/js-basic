@@ -355,9 +355,9 @@ arr1.forEach(number=>console.log(number));
 // join operator
 let arr2=[1,2,3,4,5];
 console.log(typeof(arr1));
-let join_arr=arr2.join('   ');
-console.log(join_arr);
-console.log(typeof(join_arr));
+let join_arr=arr2.join(' , ');
+console.log(join_arr,typeof(join_arr));
+// console.log(typeof(join_arr));
 // split an array
 let new_arr= join_arr.split(',');
 console.log(new_arr);
@@ -450,18 +450,27 @@ subject:"English",
 // getter
 get student_info()
 {
-    return (`${object.Name} ${object.RollNo}`);
-}
+    return (`${this.Name} ${object.RollNo}`);
+},
 // setter
+set student_info(name)
+{
+    this.Name=name;
+}
+
+
+
 };
 console.log(object);
 
 let result_ans=object.Name+object.RollNo;
 // console.log(typeof(result_ans));
 // console.log(`${result_ans}`);
-
+object.student_info="puneet";
 console.log(object.student_info);
 
+
+// error handling
 
 
 

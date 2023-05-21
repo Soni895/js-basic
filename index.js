@@ -455,22 +455,39 @@ get student_info()
 // setter
 set student_info(name)
 {
-    this.Name=name;
+    if(typeof name!=="string")
+    {
+        throw new Error("invalid string");
+    }
+    let part=name.split(' ');
+
+    this.Name=part[0];
+    this.RollNo=part[1];
 }
-
-
-
 };
 console.log(object);
 
 let result_ans=object.Name+object.RollNo;
 // console.log(typeof(result_ans));
 // console.log(`${result_ans}`);
-object.student_info="puneet";
+
 console.log(object.student_info);
 
 
 // error handling
+try{
+
+
+    object.student_info=25;
+
+}
+catch( exception){
+    console.log("pass name and roll no\n"+exception);
+
+}
+
+
+console.log(object.student_info);
 
 
 

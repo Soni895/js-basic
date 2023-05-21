@@ -1,4 +1,4 @@
-set student_info(name)
-{
-    object.Name=name;
-}
+if(typeeof(name)!=String)
+    // {
+    //     throw new console.error("invalid string");
+    // }

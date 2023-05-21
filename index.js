@@ -455,7 +455,7 @@ get student_info()
 // setter
 set student_info(name)
 {
-    if(typeof name!=="string")
+    if(typeof name!==String)
     {
         throw new Error("invalid string");
     }

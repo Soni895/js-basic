@@ -1,11 +1,15 @@
 .containor
 {
-    display:flex;
-    background: pink;
+    display:grid;
+    background: blueviolet;
     height: 100%;
     width: 100%;
+    margin: 50px;
+    margin-top: 0 auto;
     justify-content: center;
     align-items: center;
-
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
 
 }

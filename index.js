@@ -485,8 +485,6 @@ catch( exception){
     console.log("pass name and roll no\n"+exception);
 
 }
-
-
 console.log(object.student_info);
 
 

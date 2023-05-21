@@ -440,6 +440,24 @@ function get_sum_rest_operator( ...etc)
 }
 console.log(get_sum_rest_operator(12,23));
 
+// getter and setter
+
+let object={
+
+Name:"darshan",
+RollNo:11212530,
+subject:"English",
+// getter
+get student_info()
+{
+    return ;
+}
+// setter
+};
+console.log(object);
+console.log(object.student_info);
+
+
 
 
 

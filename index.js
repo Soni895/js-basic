@@ -450,13 +450,17 @@ subject:"English",
 // getter
 get student_info()
 {
-    return ;
+    return (`${object.Name} ${object.RollNo}`);
 }
 // setter
 };
 console.log(object);
-console.log(object.student_info);
 
+let result_ans=object.Name+object.RollNo;
+// console.log(typeof(result_ans));
+// console.log(`${result_ans}`);
+
+console.log(object.student_info);
 
 
 
